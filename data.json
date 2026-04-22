@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mario Circuit",
+    "image": "images/mario.jpg"
+  },
+  {
+    "name": "Rainbow Road",
+    "image": "images/rainbow.jpg"
+  },
+  {
+    "name": "Bowser Castle",
+    "image": "images/bowser.jpg"
+  }
+]
