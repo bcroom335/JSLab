@@ -5,15 +5,26 @@
   <title>Mario Kart Stages</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>🏁 Mario Kart Stages</h1>
+<header class="hero">
+  <h1>Mario Kart Stages</h1>
+  <p>Choose your track</p>
 
-<div class="controls">
-  <input type="text" id="search" placeholder="搜尋關卡...">
+  <input id="search" placeholder="Search stages...">
+</header>
+
+<main id="grid" class="grid"></main>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close">×</span>
+    <img id="modal-img">
+    <h2 id="modal-title"></h2>
+  </div>
 </div>
-
-<div id="stage-list" class="grid"></div>
 
 <script src="app.js"></script>
 </body>
